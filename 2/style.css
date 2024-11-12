@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background: #dde0e7;
+    height: 100vh;
+}
+
+.social-container {
+    align-self: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.social-image {
+    width: 40px;
+    height: 40px;
+    opacity: 70%;
+}
+
+.f-circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #dde0e7;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: -5px -5px 9px #ffffff73, 5px 5px 7px #5e687949;
+    cursor: pointer;
+}
+
+.h-circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #dde0e7;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: inset -5px -5px 9px #ffffff73, inset 5px 5px 7px #5e687949;
+    cursor: pointer;
+}
+
+.dh-circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #dde0e7;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: -5px -5px 9px #ffffff73, 5px 5px 7px #5e687949;
+    cursor: pointer;
+}
+
+.dh-circle .inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: inset -5px -5px 9px #ffffff73, inset 5px 5px 7px #5e687949;
+
+}
+
